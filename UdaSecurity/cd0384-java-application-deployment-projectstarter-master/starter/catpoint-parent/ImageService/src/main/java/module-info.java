@@ -1,0 +1,3 @@
+module ImageService {
+    exports serviceimage;
+}
