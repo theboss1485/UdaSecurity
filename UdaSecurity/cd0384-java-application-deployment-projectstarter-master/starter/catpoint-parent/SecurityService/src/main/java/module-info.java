@@ -6,5 +6,5 @@ module SecurityService {
     requires com.google.gson;
     requires com.google.common;
     exports servicesecurity;
-    opens servicesecurity to com.google.gson;
+    opens data to com.google.gson;
 }
