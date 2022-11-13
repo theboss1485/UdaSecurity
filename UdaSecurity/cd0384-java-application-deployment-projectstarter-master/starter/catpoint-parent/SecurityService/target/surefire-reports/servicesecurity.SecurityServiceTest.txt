@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: servicesecurity.SecurityServiceTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 0.684 s <<< FAILURE! - in servicesecurity.SecurityServiceTest
+servicesecurity.SecurityServiceTest.armedAlarm_activatedSensor_pendingAlarmStatus  Time elapsed: 0.577 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.activeAlarm_sensorStateChange_activeAlarm  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.imageContainsCat_systemArmedHome_alarmAlarmStatus(int)[1]  Time elapsed: 0.002 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.imageContainsCat_systemArmedHome_alarmAlarmStatus(int)[2]  Time elapsed: 0.002 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.imageContainsCat_systemArmedHome_alarmAlarmStatus(int)[3]  Time elapsed: 0.002 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.systemDisarmed_statusNoAlarm  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.pendingAlarm_activatedActiveSensor_alarmAlarmState  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.deactivatedInactiveSensor_noAlarmChange  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.imageDoesNotContainCat_noAlarm_noActiveSensors(boolean)[1]  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.imageDoesNotContainCat_noAlarm_noActiveSensors(boolean)[2]  Time elapsed: 0.002 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.addAndRemoveStatusListener  Time elapsed: 0.002 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.systemArmed_sensorsDeactivated(int)[1]  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.systemArmed_sensorsDeactivated(int)[2]  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.pendingAlarm_inactiveSensors_noAlarm  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.armedHome_cameraShowingCat_alarmAlarmStatus  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.disarmedSystem_scanCat_noAlarm  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.scanCat_activeSensor_alarm_scanNotCat_alarm  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.activeAlarm_sensorStateChange_noAlarmChange  Time elapsed: 0 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.scanCat_activeAlarm_scanNotCat_noAlarm  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
+servicesecurity.SecurityServiceTest.armedAlarm_activatedSensorAndPendingAlarmStatus_alarmAlarmStatus  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: Problems setting field imageService annotated with @org.mockito.Mock(stubOnly=false, answer=RETURNS_DEFAULTS, mockMaker="", name="", extraInterfaces={}, strictness=TEST_LEVEL_DEFAULT, serializable=false, lenient=false)
+Caused by: java.lang.IllegalAccessException: class org.mockito.internal.util.reflection.ReflectionMemberAccessor cannot access a member of class servicesecurity.SecurityServiceTest (in module SecurityService) with modifiers ""
+
