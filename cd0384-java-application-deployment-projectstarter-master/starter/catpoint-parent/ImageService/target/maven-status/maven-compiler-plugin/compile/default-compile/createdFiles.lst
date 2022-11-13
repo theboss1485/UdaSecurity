@@ -1,0 +1,4 @@
+serviceimage\ImageService.class
+serviceimage\AwsImageService.class
+module-info.class
+serviceimage\FakeImageService.class
